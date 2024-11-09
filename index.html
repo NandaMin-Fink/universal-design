@@ -1,28 +1,50 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
 <head>
-    <title> Universal Design</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class Portal</title>
+    <link href="Semantics/css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
-    <nav>
-        <a href="wiki/wiki.html"> Assignment 4</a>
-        <a href="assignment-5/assignment-5.html"> Assignment 5</a>
-        <a href="page2.html"> Page 3</a>
-    </nav>
+<div class="container">
     <header>
-        <h1>Universal Design</h1>
-        <h2>Nanda Min-Fink</h2>
+        <h1>Class Portal</h1>
     </header>
+    <nav>
+        <h2 class="sr-only">main navigation</h2>
+        <ul>
+            <li><a href="wiki/wiki.html">Lab #2</a></li>
+            <li><a href="assignment-5/assignment-5.html">Lab #3</a></li>
+            <li><a href="Semantics/grid-flex.html">Lab #4</a></li>
+
+        </ul>
+    </nav>
     <main>
-        <h2>About Me</h2>
-        <p>My name is Nanda Min-Fink. I am a junior at CU, majoring in Computer Science and minoring in Creative Technolgy and Design. 
-            I was born in Thailand and moved to Arlington, Virgina when I was 6. I love the outdoors, which was one of my main reasons coming to boulder,
-        especially hiking and snowboarding.
-        </p>
+        <section id="overview">
+            <h2>Nanda Min-Fink</h2>
+            <figure>
+                <img src="img/face1.jpg" alt="Close up photograph of Nanda Min-Fink, 20 years old, in a Tuxedo">
+                <figcaption>Nanda Min-Fink</figcaption>
+            </figure>
+            <p>Major: Computer Science, Minor: Creative Technology and Design</p>
+        </section>
     </main>
+    <aside id="aside1">
+        <h2>About Me</h2>
+        <p>My name is Nanda Min-Fink, I am 20 years old and a student at the University of Colorado Boulder. I am in my junior year, pursuing a major in Computer Science and a Minor in <abbr title="Creative Technology and Design">CTD</abbr>. My interest in computer science began through modding video games as a kid and as I continued to do small projects throughout high school I solidified my interest in the field. I am also intrigued in graphic design making this class a great blend of those two aspects. I am currently interning at a software programming company in Niwot working on back-end databases and authentication systems.
+        </p>
+        <p>
+            Outside of school I spend a lot of my time hiking, snowboarding, and playing Ultimate Frisbee. I recently have gotten into skiing and am in the process of making the switch from snowboarding to access the backcountry in Colorado. Overall, I love the outdoors and try to get out as much as possible regardless of the activity.
+        </p>
+    </aside>
+    <footer>
+        <small> designed by nanda min-fink</small>
+    </footer>
 
+</div> <!-- end container -->
 </body>
-
-
 </html>
