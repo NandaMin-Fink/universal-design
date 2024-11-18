@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 
+.skip-link {
+    background: #87CEFA;
+    color: black;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+}
 
+.skip-link:focus {
+    transform: translateY(0%);
+}
+
+.skip-link {
+    /* Same as  before */
+    transition: transform 0.3s;
+}
 
 body {
     background: whitesmoke;
@@ -47,14 +63,12 @@ footer {
     "heady"
     "navvy"
     "mainy"
-    "aside1"
     "footy";
 }
 
 header {grid-area: heady; background:#ADD8E6;}
 nav {grid-area: navvy; background:#87CEFA;}
 main {grid-area: mainy; background:#EFF2F1;}
-#aside1 {grid-area: aside1; background: #97D8C4;}
 footer {grid-area: footy; background: #87CEFA;}
 
 main{
@@ -101,7 +115,6 @@ and (max-width: 900px)  {
   "heady"
   "navvy"
   "mainy"
-  "aside1"
   "footy";
 
     }
@@ -126,7 +139,6 @@ and (max-width: 640px) {
         grid-template-areas:
     "heady"
     "mainy"
-    "aside1"
     "navvy"
     "footy"
 
