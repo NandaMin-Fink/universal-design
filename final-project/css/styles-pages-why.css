@@ -51,18 +51,17 @@ footer {
 .info-section {
     display: grid;
     grid-template-rows: repeat(2, auto); /* 2 rows with height adjusted automatically */
-    gap: 2em; /* Spacing between rows */
 }
 
 .info-row {
     display: flex;
     justify-content: space-around; /* Evenly spaced boxes within each row */
-    gap: 1em; /* Spacing between boxes in a row */
 }
 
 .info-cube {
     padding: 1em;
-    background-color: whitesmoke; /* Example color for the cube */
+    margin: 1em;
+    background-color: seashell; /* Example color for the cube */
     color: black;
     text-align: center;
     border-radius: 12px; /* Rounded edges for the cubes */
@@ -79,14 +78,14 @@ footer {
     width: 100vw;
     height: 100vh;
     grid-template-columns:
-   1fr 1fr;
+   1fr;
     grid-template-areas:
-  "heady heady"
-  "navvy navvy"
-  "mainy mainy"
-  "aside1 aside2"
-  "aside3 aside3"
-  "footy footy";
+  "heady"
+  "navvy"
+  "mainy"
+  "aside1"
+  "aside2"
+  "footy";
 }
 
 header {grid-area: heady; background:#ADD8E6;}
@@ -94,19 +93,10 @@ nav {grid-area: navvy; background:#87CEFA;}
 main {grid-area: mainy; background:#EFF2F1;}
 #aside1 {grid-area: aside1; background: #97D8C4;}
 #aside2 {grid-area: aside2; background: #97D8C4;}
-#aside3 {grid-area: aside3; background: #97D8C4;}
 footer {grid-area: footy; background: #87CEFA;}
 
 main{
     align-items: end; /* Aligns the text to the bottom */
-}
-
-main a{
-    text-decoration: none;
-}
-main a:hover{
-    color: white;
-    background-color: #5594F6;
 }
 
 nav ul {
@@ -131,11 +121,11 @@ nav ul li a{
 }
 
 figure{
-    width: 20%;
+    width: 200px;
 }
 
 figcaption{
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -151,7 +141,6 @@ and (max-width: 900px)  {
   "mainy"
   "aside1"
   "aside2"
-  "aside3"
   "footy";
 
     }
@@ -178,7 +167,6 @@ and (max-width: 640px) {
     "mainy"
     "aside1"
     "aside2"
-    "aside3"
     "navvy"
     "footy"
 
