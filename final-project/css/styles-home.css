@@ -37,7 +37,6 @@ h1{
 
 h2 {font-size:2em;}
 
-nav,
 main,
 aside,
 footer {
@@ -97,11 +96,11 @@ nav ul li a{
 }
 
 figure{
-    width: 200px;
+    width: 500px;
 }
 
 figcaption{
-    text-align: center;
+    text-align: left;
 }
 
 

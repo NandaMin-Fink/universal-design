@@ -37,7 +37,6 @@ h1{
 
 h2 {font-size:2em;}
 
-nav,
 main,
 aside,
 footer {
@@ -58,15 +57,14 @@ footer {
     width: 100vw;
     height: 100vh;
     grid-template-columns:
-    1fr;
+   1fr 1fr;
     grid-template-areas:
-    "heady"
-    "navvy"
-    "mainy"
-    "aside1"
-    "aside2"
-    "aside3"
-    "footy";
+  "heady heady"
+  "navvy navvy"
+  "mainy mainy"
+  "aside1 aside2"
+  "aside3 aside3"
+  "footy footy";
 }
 
 header {grid-area: heady; background:#ADD8E6;}
