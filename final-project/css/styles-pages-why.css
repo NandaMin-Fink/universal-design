@@ -50,23 +50,23 @@ footer {
 
 .info-section {
     display: grid;
-    grid-template-rows: repeat(2, auto); /* 2 rows with height adjusted automatically */
+    grid-template-rows: repeat(2, auto);
 }
 
 .info-row {
     display: flex;
-    justify-content: space-around; /* Evenly spaced boxes within each row */
+    justify-content: space-around;
 }
 
 .info-cube {
     padding: 1em;
     margin: 1em;
-    background-color: seashell; /* Example color for the cube */
+    background-color: seashell;
     color: black;
     text-align: center;
-    border-radius: 12px; /* Rounded edges for the cubes */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    flex: 1; /* Optional: ensures cubes are the same size */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
 
@@ -96,7 +96,7 @@ main {grid-area: mainy; background:#EFF2F1;}
 footer {grid-area: footy; background: #87CEFA;}
 
 main{
-    align-items: end; /* Aligns the text to the bottom */
+    align-items: end;
 }
 
 nav ul {

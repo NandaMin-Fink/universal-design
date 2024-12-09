@@ -71,7 +71,7 @@ main {grid-area: mainy; background:#EFF2F1;}
 footer {grid-area: footy; background: #87CEFA;}
 
 main{
-    align-items: end; /* Aligns the text to the bottom */
+    align-items: end;
 }
 
 nav ul {

@@ -50,24 +50,24 @@ footer {
 
 .info-section {
     display: grid;
-    grid-template-rows: repeat(2, auto); /* 2 rows with height adjusted automatically */
-    gap: 2em; /* Spacing between rows */
+    grid-template-rows: repeat(2, auto);
+    gap: 2em;
 }
 
 .info-row {
     display: flex;
-    justify-content: space-around; /* Evenly spaced boxes within each row */
-    gap: 1em; /* Spacing between boxes in a row */
+    justify-content: space-around;
+    gap: 1em;
 }
 
 .info-cube {
     padding: 1em;
-    background-color: whitesmoke; /* Example color for the cube */
+    background-color: whitesmoke;
     color: black;
     text-align: center;
-    border-radius: 12px; /* Rounded edges for the cubes */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    flex: 1; /* Optional: ensures cubes are the same size */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
 
 
@@ -98,7 +98,7 @@ main {grid-area: mainy; background:#EFF2F1;}
 footer {grid-area: footy; background: #87CEFA;}
 
 main{
-    align-items: end; /* Aligns the text to the bottom */
+    align-items: end;
 }
 
 main a{
